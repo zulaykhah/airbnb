@@ -1,13 +1,93 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins',sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+p {
+  color: crimson;
+  font-size: 30px;
+}
+.bnblogo {
+  height: 70px;
+  padding: 20px 36px;
+  display: flex;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+}
+.logo{
+  width: 30px;
+  height: 40px;
+  /* max-width: 100px; */
+  padding: 20px 5px;
+}
+.photogrid{
+  width: 600px;
+
+}
+section {
+  padding: 20px;
+}
+.hero{
+  display: flex;
+  flex-direction: column ;
+}
+.photo-hero{
+  max-width: 400px;
+  align-self: center;
+}
+.photo-header{
+  margin-bottom: 16px;
+}
+.photo-text{
+  margin-top: 0 ;
+} 
+.card{
+  width: 175px;
+  font-size: 12px;
+}
+.card_pic{
+  display: flex; 
+  
+}
+.grid_photo{
+  padding: 20px;
+  width: 100%;
+  border-radius: 9px;
+  display: flex;
+}
+.p_text{
+  font-size: 12px
+}
+.card_icon{
+  width: 15px;
+  height: 12px;
+  padding: 3px;
+}
+.grid_text{
+  /* padding: 20px; */
+  padding-bottom: 13px;
+
+}
+.icon{
+  display: flex;
+}
+.bold{
+  font-weight: bold;
+}
+.secondgrid_text{
+ display: flex; 
+ padding-left: 150px;
+}
+.secondp_text{
+ font-size: 12px;
+ display: flex;
+ flex-direction: column;
 }
